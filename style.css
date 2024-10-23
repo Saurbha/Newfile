@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize ;
+    
+}
+body{
+    color: whitesmoke;
+    font-family: "Merriweather",serif;
+
+}
+.background{
+    position: relative ;
+    
+}
+
+.logo{
+   font-size: 2em;
+   font-weight: 600;
+   flex: 1;
+   color:darkgray;
+   display: flex;
+   align-items: center;
+
+}
+.logo img{
+    width:70px;
+    margin-right: 1%;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:darkgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.nav_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav_item li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Hide hamburger menu on desktop */
+.nav_menu {
+    display: none;
+}
+
+.nav_item li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: darkred;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav_item li:hover::after{
+    width: 100%;
+}
+.hamburger{
+    display: none;
+}
+
+.right img{
+    width: 1650px;
+    max-height: 100%;
+    height: auto;
+}
+/* feaches */
+
+.sec{
+    width: 85%;
+    margin: auto; 
+    text-align: center;
+    padding: 9rem 0 3em 0;
+    color: #000;
+}
+
+.heading{
+    color: #000;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    padding-bottom: 32px;
+}
+
+
+.para{
+    font-size: 24px;
+    color: #000;
+}
+
+/* //Our vision */
+
+.sec1{
+    width: 100%;
+    margin: auto; 
+    text-align: center;
+    padding: 2rem 0 3em 0;
+    color: #000;
+    background-color: #80b3ff;
+  
+
+    
+}
+
+.heading{
+    color: #000;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    padding-bottom: 32px;
+}
+
+
+.para1{
+    font-size: 24px;
+    color: #000;
+    padding-bottom: 32px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+
+
+
+  h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+
+  .core-values {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .core-value {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .core-value img {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+
+  .core-value h4 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+  }
+
+
+  .story-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #d0e8fc, #d1c9fc);
+    color: #333;
+}
+
+.story-text {
+ 
+  width: 50%;
+  padding-right: 250px;
+   
+}
+
+.story-text h2 {
+    color: #2962ff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.story-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.team-members {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.team-member {
+    text-align: center;
+    color: #333;
+    justify-content: space-evenly;
+    margin-top: 50px;
+   
+}
+
+
+
+.team-member img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+.team-member h4 {
+    color: #2962ff;
+    margin: 5px 0 0;
+    font-weight: 600;
+}
+
+.team-member h5 {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.join1 ,text{
+    display: flex;
+    color: #333;
+    font-size: 20px
+}
+.text img{
+    width: 30%;
+    margin-left:1000px ;
+}
+
+
+.container {
+  
+    background-color: #f0f4f7;
+    display: flex;
+    overflow: hidden;
+ 
+}
+.container h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: start;
+}
+.container button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.puzzle img{
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+  
+}
+.footer {
+    background-color: #e0f0ff;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer .logo3 {
+    
+  margin-top: 20px;
+
+}
+.footer .address, .footer .contact-info {
+ 
+    font-size: 14px;
+    row-gap: 600px;
+    color: #555;
+    margin-top: 10px;
+    
+}
+.footer .quick-links {
+    margin: 20px 0;
+    font-size: 16px;
+}
+.footer .quick-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer .quick-links a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+
+.link,quick-links{
+   color: #000; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .nav_item {
+        display: none; /* Hide the nav links on mobile */
+        flex-direction: column;
+        background-color: #fff066;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_item.active {
+        display: flex; /* Show the menu when active */
+    }
+
+    .nav_item li {
+        margin: 10px 0;
+    }
+
+    .nav_menu {
+        display: block; /* Show hamburger menu on mobile */
+        cursor: pointer;
+    }
+
+    .logo img {
+        width: 50px; /* Adjust logo size for mobile */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
